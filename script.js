@@ -3,4 +3,3 @@ fetch('https://whatyearisit-backend-taupe-mu.vercel.app/year')
 .then(data => {
     document.querySelector('#year').textContent = data.year
 })
-
